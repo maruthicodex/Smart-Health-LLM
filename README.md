@@ -292,50 +292,6 @@ Please adhere to this project's `code of conduct`.
 
 <br/>
 
-## Feedback
-
-If you have any feedback or suggestions, feel free to reach out at **harmeshgopinathan@gmail.com**
-
-<br/>
-
-## FAQ
-
-#### How does SmartHealth predict skin diseases?
-
- It uses a pre-trained EfficientNet-B0 deep learning model to classify uploaded skin images.
-
-#### What happens when I enter my symptoms?
-
-The system uses semantic search (FAISS + MiniLM) to find relevant diseases and then uses an LLM to generate detailed responses.
-
-####  Is my data stored?
-
-Currently, the app does not store any user data. All predictions happen in-memory for privacy.
-
-#### Can I use this without a GPU?
-
-Yes, but the training will be slower. CUDA acceleration is used only if available.
-
-<br/>
-
-## Related Projects
-
-[CSV RAG](https://github.com/harmeshgv/RAG-Enhanced-NLP-QueryEngine.git) - A Retrieval Augmented Generation (RAG)-based NLP query engine for DataFrames, designed for efficient querying of large datasets. It uses semantic embeddings and FAISS indexing to retrieve relevant data segments, enabling accurate natural language queries while overcoming language model input size limitations.
-
-<br/>
-
-## 🚀 About Me
-Hi, I'm **Harmesh G V** – a B.Tech CSE student passionate about building AI-powered applications.  
-This project is part of my exploration into combining computer vision and LLMs for practical healthcare use cases.
-
-<br/>
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://harmeshgv.github.io/portfolio/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/harmeshgv)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Harmesh950)
-
-
 
 
 
